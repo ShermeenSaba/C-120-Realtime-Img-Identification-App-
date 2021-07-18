@@ -1,0 +1,54 @@
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    box-shadow:5px 5px 5px rgb(255, 255, 255);
+    margin: 0px;
+    font-family: times;
+    padding-top: 13px;
+  }
+
+  @keyframes S {
+    from{box-shadow: 1px 1px 35px #000000}
+    to{box-shadow: 1px 1px 35px rgb(255, 255, 255);}
+}
+
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black; 
+    font-family: 'Lobster', cursive;
+    float: none;
+    padding: 10px;
+    animation-name: S;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    font-family: 'Lobster', cursive;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+  }
+
+ .result_para_tag span 
+ {
+   white-space: pre-line;
+ }
+
+ .copy_right_footer
+ {
+   position: fixed;
+   color: white;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(255, 0, 0);
+   line-height: 3;
+   text-align: center;
+ }
